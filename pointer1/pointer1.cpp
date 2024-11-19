@@ -7,7 +7,7 @@ int main()
     int *ptr2;
     n = 0;
     c = 3;
-    cout << n <<  c << endl;
+    cin >> n >> c;
     ptr1 = &n;
     tmp = *ptr1;
     ptr2 = &c;
