@@ -2,7 +2,8 @@
 using namespace std;
 int main()
 {
-    int n, tmp, *ptr=&tmp, max, min;
+    int n, max, min;
+    int *ptr = nullptr;
     cin >> n;
     cin >> *ptr;
     max = *ptr;
